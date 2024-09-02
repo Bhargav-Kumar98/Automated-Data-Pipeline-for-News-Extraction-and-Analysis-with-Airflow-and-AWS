@@ -31,7 +31,7 @@ The goal of this project is to create a robust and efficient data pipeline for c
 
 * Containerized the entire pipeline with Docker, including Airflow, PostgreSQL, and Celery, to ensure consistent performance across different platforms.
   
-<img width="1120" alt="dag success" src="https://github.com/user-attachments/assets/1fcb7fe2-cd53-460d-ad5a-cadf364eb750">
+<img width="1120" alt="dag success" src="https://github.com/user-attachments/assets/3c90816f-78c2-4eac-9204-4ceb4a9c2b8d">
 
 * Stored data fetched from the News API in Amazon S3, both before and after transformation.
 <img width="1120" alt="s3 raw" src="https://github.com/user-attachments/assets/11994a4d-e4b9-47bd-9757-69ff7cc194fb">
