@@ -1,0 +1,15 @@
+[2024-09-01T22:06:31.264+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: news_etl_pipeline.news_extraction manual__2024-09-01T22:06:29.544228+00:00 [queued]>
+[2024-09-01T22:06:31.271+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: news_etl_pipeline.news_extraction manual__2024-09-01T22:06:29.544228+00:00 [queued]>
+[2024-09-01T22:06:31.272+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2024-09-01T22:06:31.282+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): news_extraction> on 2024-09-01 22:06:29.544228+00:00
+[2024-09-01T22:06:31.287+0000] {standard_task_runner.py:57} INFO - Started process 220 to run task
+[2024-09-01T22:06:31.290+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'news_etl_pipeline', 'news_extraction', 'manual__2024-09-01T22:06:29.544228+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/news_dag.py', '--cfg-path', '/tmp/tmp6rweabec']
+[2024-09-01T22:06:31.294+0000] {standard_task_runner.py:85} INFO - Job 6: Subtask news_extraction
+[2024-09-01T22:06:31.335+0000] {task_command.py:410} INFO - Running <TaskInstance: news_etl_pipeline.news_extraction manual__2024-09-01T22:06:29.544228+00:00 [running]> on host d87ef426a446
+[2024-09-01T22:06:31.400+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Bhargav Kumar Aathava' AIRFLOW_CTX_DAG_ID='news_etl_pipeline' AIRFLOW_CTX_TASK_ID='news_extraction' AIRFLOW_CTX_EXECUTION_DATE='2024-09-01T22:06:29.544228+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-01T22:06:29.544228+00:00'
+[2024-09-01T22:06:31.402+0000] {logging_mixin.py:149} INFO - connected to News Api!
+[2024-09-01T22:06:31.631+0000] {logging_mixin.py:149} INFO - Extracted data from News Api!
+[2024-09-01T22:06:31.645+0000] {python.py:183} INFO - Done. Returned value was: ./data/top_headlines_20240901.csv
+[2024-09-01T22:06:31.663+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=news_etl_pipeline, task_id=news_extraction, execution_date=20240901T220629, start_date=20240901T220631, end_date=20240901T220631
+[2024-09-01T22:06:31.704+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2024-09-01T22:06:31.719+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
