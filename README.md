@@ -38,9 +38,9 @@ The goal of this project is to create a robust and efficient data pipeline for c
 
 * Analyzed data stored in Amazon S3 using Amazon Athena, leveraging a serverless query service without loading data into a database.
 
-<img width="1119" alt="Glue job 1" src="https://github.com/user-attachments/assets/d6b50b16-6efb-454a-bbb8-967d1ba6eb17">
+<img width="1120" alt="glue job 1" src="https://github.com/user-attachments/assets/a42ffc65-5845-422d-9be7-fc3795174dc4">
 
-<img width="1120" alt="glue job 2" src="https://github.com/user-attachments/assets/a42ffc65-5845-422d-9be7-fc3795174dc4">
+<img width="1119" alt="Glue job 2" src="https://github.com/user-attachments/assets/d6b50b16-6efb-454a-bbb8-967d1ba6eb17">
 
 <img width="1114" alt="transformed data" src="https://github.com/user-attachments/assets/cc583f52-cbc0-4d04-b81c-fa5a90fdffe6">
 
