@@ -1,4 +1,4 @@
-# Data-Engineering-Pipeline-for-News-Data-Extraction-and-Analysis
+# Automated Data Pipeline for News Extraction and Analysis with Airflow and AWS
 
 ## Project Overview
 This project focuses on building a scalable and automated data engineering pipeline that extracts data from a News API, processes it using Apache Airflow, and stores it in AWS services for further analysis. 
